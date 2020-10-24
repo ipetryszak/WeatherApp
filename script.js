@@ -4,7 +4,7 @@ const api = {
 }
 
 const searchBox = document.querySelector('.search-box');
-window.addEventListener('load',handleWroclaw);
+document.addEventListener('load',handleWroclaw);
 searchBox.addEventListener('keypress',handleSearch);
 
 function handleWroclaw(e) {
