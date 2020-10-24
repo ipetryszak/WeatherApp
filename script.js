@@ -1,10 +1,10 @@
 const api = {
     key: "d11fbedd0a593a2b2e097aaaa74f9aad",
-    baseurl: 'http://api.openweathermap.org/data/2.5/'
+    baseurl: 'https://api.openweathermap.org/data/2.5/'
 }
 
 const searchBox = document.querySelector('.search-box');
-document.addEventListener('load',handleWroclaw);
+window.addEventListener('load',handleWroclaw);
 searchBox.addEventListener('keypress',handleSearch);
 
 function handleWroclaw(e) {
